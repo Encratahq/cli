@@ -1,0 +1,21 @@
+# Binaries
+/encrata
+*.exe
+dist/
+
+# Platform npm packages (deprecated)
+npm/darwin-arm64/
+npm/darwin-x64/
+npm/linux-arm64/
+npm/linux-x64/
+npm/win32-x64/
+npm/encrata/bin/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

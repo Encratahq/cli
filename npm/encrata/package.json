@@ -1,0 +1,27 @@
+{
+  "name": "encrata",
+  "version": "0.1.0",
+  "description": "Encrata CLI — intelligence lookups from your terminal",
+  "bin": {
+    "encrata": "bin/encrata"
+  },
+  "keywords": ["encrata", "osint", "email-lookup", "phone-lookup", "domain-lookup", "ip-lookup", "darkweb", "intelligence", "cli"],
+  "author": "Encrata <hello@encrata.com>",
+  "license": "MIT",
+  "homepage": "https://encrata.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Encratahq/cli.git"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "files": [
+    "bin/",
+    "install.js",
+    "README.md"
+  ]
+}
