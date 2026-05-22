@@ -112,7 +112,7 @@ type PhoneRequest struct {
 }
 
 func (c *Client) PhoneSearch(query string) (json.RawMessage, error) {
-	data, err := c.post("/api/phone-search", &PhoneRequest{Query: query})
+	data, err := c.post("/api/agent/phone", &PhoneRequest{Query: query})
 	if err != nil {
 		return nil, err
 	}

@@ -109,6 +109,10 @@ func Header(title string) {
 	fmt.Println()
 }
 
+func SubHeader(title string) {
+	fmt.Printf("  %s\n", mutedColor("── "+title+" ──"))
+}
+
 func SuccessMsg(msg string) {
 	fmt.Printf("  %s %s\n", "\033[1;32m✓\033[0m", msg)
 }
